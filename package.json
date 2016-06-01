@@ -1,0 +1,28 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "Webpack Learning",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajeevgurram/webpack.git"
+  },
+  "author": "Rajeev Gurram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajeevgurram/webpack/issues"
+  },
+  "homepage": "https://github.com/rajeevgurram/webpack",
+  "devDependencies":{
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "jshint": "^2.8.0",
+    "jshint-loader": "^0.8.3",
+    "node-libs-browser": "^0.5.3",
+    "webpack": "^1.12.9"
+  }
+}
